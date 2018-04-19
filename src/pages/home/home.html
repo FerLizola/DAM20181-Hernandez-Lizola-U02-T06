@@ -10,8 +10,8 @@
   <ion-card>
     <ion-card-content>
       <ion-label>Ingresa E-Mail</ion-label>
-      <ion-input type="text" ></ion-input>
-      <button type="submit" block>Ingresar</button>
+      <ion-input type="text" [(ngModel)]="email"></ion-input>
+      <button type="submit" block (click)="ingresar()">Ingresar</button>
     </ion-card-content>
   </ion-card>
 </ion-content>

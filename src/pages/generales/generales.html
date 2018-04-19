@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Información general</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-card #myCard>
+        <ion-img src="https://farm5.staticflickr.com/4071/4433921371_33500e2649_z.jpg"></ion-img>
+        <ion-label center>{{name}}</ion-label>
+        <ion-label center>{{email}}</ion-label>
+        <button ion-button block (click)="deportes()">Ver Deportes</button>
+    </ion-card>
+</ion-content>
